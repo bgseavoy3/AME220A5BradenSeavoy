@@ -1,0 +1,362 @@
+<!doctype html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" />
+</head>
+<body>
+<button onclick='bounceAnimation(event)'>bounce</button>
+<button onclick='flashAnimation(event)'>flash</button>
+<button onclick='pulseAnimation(event)'>pulse</button>
+<button onclick='rubberBandAnimation(event)'>rubberBand</button>
+<button onclick='shakeXAnimation(event)'>shakeX</button>
+<button onclick='shakeYAnimation(event)'>shakeY</button>
+<button onclick='headShakeAnimation(event)'>headShake</button>
+<button onclick='swingAnimation(event)'>swing</button>
+<button onclick='tadaAnimation(event)'>tada</button>
+<button onclick='wobbleAnimation(event)'>wobble</button>
+<button onclick='jelloAnimation(event)'>jello</button>
+<button onclick='heartBeatAnimation(event)'>heartBeat</button>
+<button onclick='backInDownAnimation(event)'>backInDown</button>
+<button onclick='backInLeftAnimation(event)'>backInLeft</button>
+<button onclick='backInRightAnimation(event)'>backInRight</button>
+<button onclick='backInUpAnimation(event)'>backInUp</button>
+<button onclick='backInDownAnimation(event)'>backOutDown</button>
+<button onclick='backOutLeftAnimation(event)'>backOutLeft</button>
+<button onclick='backOutRightAnimation(event)'>backOutRight</button>
+<button onclick='backOutUpAnimation(event)'>backOutUp</button>
+<button onclick='bounceInAnimation(event)'>bounceIn</button>
+<button onclick='bounceInDownAnimation(event)'>bounceInDown</button>
+<button onclick='bounceInLeftAnimation(event)'>bounceInLeft</button>
+<button onclick='bounceInRightAnimation(event)'>bounceInRight</button>
+<button onclick='bounceInUpAnimation(event)'>bounceInUp</button>
+<button onclick='bounceOutAnimation(event)'>bounceOut</button>
+<button onclick='bounceOutDownAnimation(event)'>bounceOutDown</button>
+<button onclick='bounceOutLeftAnimation(event)'>bounceOutLeft</button>
+<button onclick='bounceOutRightAnimation(event)'>bounceOutRight</button>
+<button onclick='bounceOutUpAnimation(event)'>bounceOutUp</button>
+
+<div id='theDiv'>
+</div>
+</body>
+<style>
+#theDiv{
+  width: 100%;
+  height: 300px;
+  background:red;
+}
+</style>
+<script>
+function addAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__flip")
+ }
+ setTimeout(y, 20);
+}
+
+function bounceAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__bounce")
+ }
+ setTimeout(y, 20);
+}
+
+function flashAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__flash")
+ }
+ setTimeout(y, 20);
+}
+
+function pulseAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__pulse")
+ }
+ setTimeout(y, 20);
+}
+
+function rubberBandAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__rubberBand")
+ }
+ setTimeout(y, 20);
+}
+
+function shakeXAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__shakeX")
+ }
+ setTimeout(y, 20);
+}
+
+function shakeYAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__shakeY")
+ }
+ setTimeout(y, 20);
+}
+
+function headShakeAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__headShake")
+ }
+ setTimeout(y, 20);
+}
+
+function swingAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__swing")
+ }
+ setTimeout(y, 20);
+}
+
+function tadaAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__tada")
+ }
+ setTimeout(y, 20);
+}
+
+function wobbleAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__wobble")
+ }
+ setTimeout(y, 20);
+}
+
+function jelloAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__jello")
+ }
+ setTimeout(y, 20);
+}
+
+function heartBeatAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__heartBeat")
+ }
+ setTimeout(y, 20);
+}
+
+function backInDownAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__backInDown")
+ }
+ setTimeout(y, 20);
+}
+
+function backInLeftAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__backInLeft")
+ }
+ setTimeout(y, 20);
+}
+
+function backInRightAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__backInRight")
+ }
+ setTimeout(y, 20);
+}
+
+function backInUpAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__backInUp")
+ }
+ setTimeout(y, 20);
+}
+
+function backOutDownAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__backOutDown")
+ }
+ setTimeout(y, 20);
+}
+
+function backOutLeftAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__backOutLeft")
+ }
+ setTimeout(y, 20);
+}
+
+function backOutRightAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__backOutRight")
+ }
+ setTimeout(y, 20);
+}
+
+function backOutUpAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__backOutUp")
+ }
+ setTimeout(y, 20);
+}
+
+function bounceInAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__bounceIn")
+ }
+ setTimeout(y, 20);
+}
+
+function bounceInDownAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__bounceInDown")
+ }
+ setTimeout(y, 20);
+}
+
+function bounceInLeftAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__bounceInLeft")
+ }
+ setTimeout(y, 20);
+}
+
+function bounceInRightAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__bounceInRight")
+ }
+ setTimeout(y, 20);
+}
+
+function bounceInUpAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__bounceInUp")
+ }
+ setTimeout(y, 20);
+}
+
+function bounceOutAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__bounceOut")
+ }
+ setTimeout(y, 20);
+}
+
+function bounceOutDownAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__bounceOutDown")
+ }
+ setTimeout(y, 20);
+}
+
+function bounceOutLeftAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__bounceOutLeft")
+ }
+ setTimeout(y, 20);
+}
+
+function bounceOutRightAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__bounceOutRight")
+ }
+ setTimeout(y, 20);
+}
+
+function bounceOutUpAnimation(event){
+ var aName = event.target.innerHTML;
+ //alert(aName);
+ $("#theDiv").removeClass();
+ function y(){
+   $("#theDiv").addClass("animate__animated animate__bounceOutUp")
+ }
+ setTimeout(y, 20);
+}
+
+
+</script>
+<html>
